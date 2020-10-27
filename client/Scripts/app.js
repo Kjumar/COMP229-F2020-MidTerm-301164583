@@ -108,7 +108,7 @@ $.fn.pageMe = function(opts){
   $(".btn-danger").click(function(event){
     if(!confirm("Are you sure?")) {
       event.preventDefault();
-      window.location.assign("/games");
+      window.location.assign("/books"); // the return link used to be '/games', which doesn't exist on this site...
     }
   });
 
